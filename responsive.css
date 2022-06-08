@@ -1,0 +1,17 @@
+@media screen  and (max-width:1200px)
+{
+    .banner-image img {
+        width: 100%;
+      }
+
+      .feature-item{
+          text-align: center;
+      }
+}
+
+@media screen  and (max-width:1200px){
+    .join-now .feedback-box {
+        width: 100%;
+        height: 300px;
+      }
+}
