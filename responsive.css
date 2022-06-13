@@ -1,71 +1,67 @@
-@media screen  and (min-width:992px) and (max-width:1200px)
-{
-    .banner .banner-image img{
-        width:100%;
+@media (min-width:992px) and (max-width:1200px) {
+    .banner .banner-image img {
+        width: 100%;
     }
-    
 }
 
-@media screen  and (max-width:1200px){
+@media (max-width:1200px) {
     .join-now .feedback-box {
         width: 100%;
         height: 300px;
-      }
+    }
 }
 
-@media screen and (max-width: 576px) {
-
-    .banner .banner-image img{
-        width:100%;
+@media (max-width: 575.98px) {
+    .banner .banner-image img {
+        width: 100%;
     }
 
-    .features{
+    .features {
         text-align: center;
     }
-     
+
     .email-subscription input[type="text"] {
         width: 50%;
-      }
-    
-      .email-subscription input[type="submit"] {
+    }
+
+    .email-subscription input[type="submit"] {
         position: absolute;
         right: 10px;
-      }
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width:1200px){
-     
-    .email-subscription input[type="text"] {
+@media (min-width: 767.98px) and (max-width:1119.98px) {
+   .email-subscription input[type="text"] {
         width: 40%;
-      }
-    
-      .email-subscription input[type="submit"] {
+    }
+
+    .email-subscription input[type="submit"] {
         position: absolute;
         right: 10px;
-      }
+    }
 }
 
-@media screen and (min-width: 220px) and (max-width:320px){
-    .logos{
-         padding-top: 50px;
-     }
- }
+@media (min-width: 220px) and (max-width:320px) {
+    .logos {
+        padding-top: 50px;
+    }
+}
 
- @media screen and (min-width: 320px) and (max-width:476px){
-    .logos{
-         padding-top: 60px;
-     }
- }
+@media (min-width: 320px) and (max-width:476px) {
+    .logos {
+        padding-top: 60px;
+    }
+}
 
- @media screen and (min-width: 476px) and (max-width:576px){
-    .logos{
-         padding-top: 135px;
-     }
- }
- 
+@media (min-width: 476px) and (max-width:576px) {
+    .logos {
+        padding-top: 135px;
+    }
+}
 
-@media screen and (min-width: 576px) and (max-width:1200px){
-   .logos{
+
+@media (min-width: 575.98px) and (max-width:1119.98px) {
+    .logos {
         padding-top: 100px;
     }
 }
